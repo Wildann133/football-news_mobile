@@ -77,6 +77,7 @@ class ItemCard extends StatelessWidget {
         },
 
         // Container untuk menyimpan Icon dan Text
+        //ok
         child: Container(
           padding: const EdgeInsets.all(8),
           child: Center(
