@@ -24,7 +24,7 @@ class ItemCard extends StatelessWidget {
 
       child: InkWell(
         // Area responsif terhadap sentuhan
-        onTap: () {
+        onTap: () async {
           // Memunculkan SnackBar ketika diklik
           ScaffoldMessenger.of(context)
             ..hideCurrentSnackBar()
